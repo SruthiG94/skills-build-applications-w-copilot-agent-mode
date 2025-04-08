@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-jpn9^wss*e^(ku6z(v3!@9hr(#bk_kwsuqh5^#9)5f^)e8+8=t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev']
+ALLOWED_HOSTS = ['localhost', 'glorious-disco-7vwwpv99rg7g3r54v-8000.app.github.dev']
 
 
 # Application definition
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'corsheaders',
+    'octofit_tracker',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
